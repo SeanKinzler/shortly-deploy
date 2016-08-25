@@ -1,4 +1,5 @@
 var path = require('path');
+console.log('test');
 var knex = require('knex')({
   client: 'sqlite3',
   connection: {
