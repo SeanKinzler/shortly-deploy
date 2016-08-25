@@ -55,10 +55,12 @@ module.exports = function(grunt) {
         files: [
           'public/client/**/*.js',
           'public/lib/**/*.js',
+          'Gruntfile.js'
         ],
         tasks: [
           'concat',
-          'uglify'
+          'uglify',
+          'mochaTest'
         ]
       },
       css: {
