@@ -39,7 +39,7 @@ describe('', function() {
         .end(done);
     });
 
-    describe('Shortening links:', function() {
+    describe('links:', function() {
 
       it('Responds with the short code', function(done) {
         request(app)
